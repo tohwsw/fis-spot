@@ -42,7 +42,7 @@ Resources:
       Targets: 
         SpotIntances:
           ResourceTags: 
-            karpenter.sh/discovery: ex-karpenter
+            IntentLabel: apps
           Filters:
             - Path: State.Name
               Values: 
